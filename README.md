@@ -1,4 +1,4 @@
-# Plotting BOXFIT gamma ray burst (GRB) afterglow lightcurves 
+# Plotting notebooks: BOXFIT gamma ray burst (GRB) afterglow lightcurves 
 Jupyter notebooks containing code to plot GRB afterglow lightcurves generated using BOXFIT, a freely-available numerical code. 
 
 # Motivation 
