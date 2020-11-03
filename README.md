@@ -5,12 +5,17 @@ Jupyter notebooks containing code to plot GRB afterglow lightcurves generated us
 
 When a pair of binary neutron stars (BNS) collide and merge, they throw off ejecta and trigger the launch of one of the most energetic explosions in the universe: gamma ray bursts (GRBs). The GRB jet that's launched first interacts with surrounding ejected matter, before escaping and interacting with the surrounding interstellar medium (ISM). This interaction creates an afterglow which, with a lucky aim and a couple hundred millions of years, eventually reaches our space-based telescopes. The data we recieve on the other hand, however, tell us two things: the amount of energy detected in a given wavelength, and the time at which that energy was detected. Plotting this information gives us the lightcuve signature of that cosmic event. 
 
+**Learn more about neutron star collisions:** https://www.youtube.com/watch?v=pLivjAoDrTg \
+(Neutron Star Collision Observed for First Time, Georgia Tech)
+
+
 Numerical simulations of these observables can help us to back out information about the BNS collision as well as about the structure of the jet that produced the afterglow we detected. There is debate in the astrophysical community as to whether the jet has a "top-hat" shape, or a more structured "winged" shape. Data points to the latter, but we need to model afterglow lightcurves in order to build a solid case. BOXFIT is a numerical code that can generate lightcurves calculated given a range of paramters (observation angle, frequency observed, etc.) and compared to astrophysical data.   
 
 BOXFIT outputs are .txt files with more information than we need, therefore the a script must first extract and clean lightcurve (flux) and time data before they can be plotted. That's where these notebooks come in! 
 
 # About the notebooks  
 **Notebook 1** (20190206_lightcurve_test_plots.ipynb): Takes the result of a BOXFIT run and reproduces the plot in Fig.2.1 in the BOXFITv2 User Guide (Eerten, 2016). \
+
 **Notebook 2** (20190320_structured_jet_model.ipynb): Takes the results of three BOXFIT runs to generate a single lightcurve that models a structured jet. 
 
 # How to use
